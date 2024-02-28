@@ -1,45 +1,58 @@
-import { X } from "lucide-react";
-import Link from "next/link";
+import { X } from 'lucide-react'
+import Link from 'next/link'
 
 interface MenuProps {
-  isVisible: boolean,
+  isVisible: boolean
   onClose: () => void
 }
 
 export default function Menu({ isVisible, onClose }: MenuProps) {
   return (
-    <div className={`${isVisible ? 'flex' : 'hidden'}
-      fixed inset-0 w-full h-screen bg-black bg-opacity-50 backdrop-blur-sm md:hidden
-    `}
+    <div
       onClick={onClose}
+      className={`${isVisible ? 'flex' : 'hidden'}
+      fixed inset-0 h-screen w-full bg-black bg-opacity-50 backdrop-blur-sm md:hidden`}
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="bg-black h-96 w-full shadow-md py-5 px-5">
-        <div className="flex justify-end mb-5">
+        className="h-96 w-full bg-black px-5 py-5 shadow-md"
+      >
+        <div className="mb-5 flex justify-end">
           <button onClick={onClose}>
             <X size={40} />
           </button>
         </div>
-        <nav className="flex flex-col text-xl items-center gap-10">
-          <Link href={'/'} onClick={onClose}
-            className="cursor-pointer hover:text-gray-400 hover:opacity-95">
+        <nav className="flex flex-col items-center gap-10 text-xl">
+          <Link
+            href={'/'}
+            onClick={onClose}
+            className="cursor-pointer hover:text-gray-400 hover:opacity-95"
+          >
             Inicio
           </Link>
-          <Link href={'/#Projetos'} onClick={onClose}
-            className="cursor-pointer hover:text-gray-400 hover:opacity-95">
+          <Link
+            href={'/#Projetos'}
+            onClick={onClose}
+            className="cursor-pointer hover:text-gray-400 hover:opacity-95"
+          >
             Projetos
           </Link>
-          <Link href={'/#Tecnologias'} onClick={onClose}
-            className="cursor-pointer hover:text-gray-400 hover:opacity-95">
+          <Link
+            href={'/#Tecnologias'}
+            onClick={onClose}
+            className="cursor-pointer hover:text-gray-400 hover:opacity-95"
+          >
             Tecnologias
           </Link>
-          <Link href={'/#Contatos'} onClick={onClose}
-            className="cursor-pointer hover:text-gray-400 hover:opacity-95">
+          <Link
+            href={'/#Contatos'}
+            onClick={onClose}
+            className="cursor-pointer hover:text-gray-400 hover:opacity-95"
+          >
             Contatos
           </Link>
-        </nav >
-      </div >
+        </nav>
+      </div>
     </div>
   )
 }

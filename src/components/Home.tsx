@@ -2,11 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 import imgPerfil from '@/assets/imgPerfil.jpg';
+import { ChevronsDown } from "lucide-react";
 
 
 export default function Home() {
   return (
-    <section className="min-h-screen mb-20 flex flex-col-reverse items-center justify-center lg:justify-between lg:min-h-screen lg:max-w-[1120px] lg:flex-row lg:w-full">
+    <section className="relative min-h-screen mb-20 flex flex-col-reverse items-center justify-center lg:justify-between lg:min-h-screen lg:max-w-[1120px] lg:flex-row lg:w-full">
 
       <div className="flex h-96 w-full flex-col items-start justify-center gap-10 lg:h-96 lg:w-[675px]">
         <h1 className="font-prompt text-Titulo w-full text-center text-4xl font-medium lg:text-start lg:text-5xl mb-4">
@@ -15,10 +16,7 @@ export default function Home() {
           Desenvolvedor Frontend
         </h1>
         <p className="text-Texto font-normal lg:w-[575px] lg:text-xl">
-          Olá, meu nome é Filipe Ferreira e sou um apaixonado desenvolvedor
-          Front-End. Estou sempre em busca de aprimorar minhas habilidades e
-          aprender novas tecnologias para criar experiências digitais
-          incríveis.
+          Olá, meu nome é Filipe Ferreira e estou buscando me tornar um desenvolvedor Front-End. Estou sempre em busca de aprimorar minhas habilidades e aprender novas tecnologias.
         </p>
         <h4 className='w-full'>
           <span className="font-prompt text-lg font-semibold">
@@ -28,7 +26,7 @@ export default function Home() {
           </span>
           ou entre em
           <span className="font-prompt text-lg font-semibold">
-            <Link href={'/contato'} className='ml-2'>
+            <Link href={'/#Contatos'} className='ml-2'>
               CONTATO
             </Link>
           </span>
@@ -41,7 +39,11 @@ export default function Home() {
           alt=""
           className="h-48 w-48 rounded-full lg:h-80 lg:w-80"
         />
+
       </div>
+
+      <ChevronsDown size={55} className="hidden absolute animate-bounce bottom-6 m-auto w-full sm:flex" />
+
     </section>
   )
 }
