@@ -1,6 +1,8 @@
 
 import { iconsData } from "@/data/icons";
 import Image from "next/image";
+import svg from "@/assets/inbox_letter_contact_envelope_mail_email_icon_220346.svg";
+
 
 export default function Tecnologias() {
   return (
