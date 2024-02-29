@@ -15,13 +15,13 @@ export default function Tecnologias() {
           <h2 className="mt-20 flex items-center justify-center font-prompt text-Titulo w-full h text-center text-2xl font-medium">
             Stack de Desenvolvimento Frontend
           </h2>
-          <div className="flex items-center justify-center flex-wrap gap-5">
+          <div className="flex items-baseline justify-center flex-wrap gap-5">
             {
               iconsData.map(item => (
                 <div className="flex flex-col items-center justify-center w-16 h-20 gap-2"
                   key={item.id}>
-                  <Image src={item.imageLink} alt={item.icon} height={40} width={40} />
-                  <p className="h-full text-center">{item.icon}</p>
+                  <Image src={item.imageLink} alt={item.name} height={40} width={40} />
+                  <p className="h-full text-center">{item.name}</p>
                 </div>
               ))
             }

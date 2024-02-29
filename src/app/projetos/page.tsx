@@ -1,10 +1,11 @@
 import Image from 'next/image'
 
 import { projectData } from '@/data/projetos'
+import Link from 'next/link'
 
 export default function Projetos() {
   return (
-    <main className=" flex flex-col items-center justify-between text-white ">
+    <main className=" flex flex-col items-center justify-between text-white">
       <div className="bg-BgBlur flex min-h-screen w-full flex-col items-center justify-center p-4 backdrop-blur-xl backdrop-filter">
         {projectData.map((projeto, index) => (
           <div
@@ -23,7 +24,7 @@ export default function Projetos() {
               </h1>
               <p className="w-full font-normal">{projeto.description}</p>
               <div className='flex items-center'>
-                <h2>Tecnologias utilizadas :</h2>
+                <h2 className='text-Titulo'>Tecnologias utilizadas :</h2>
                 <div className='ml-2 flex gap-2'>
                   {
                     projeto.tecnologias ? (
@@ -35,6 +36,22 @@ export default function Projetos() {
                     ) : null
                   }
                 </div>
+              </div>
+              <div className='group flex gap-3'>
+                <h2 className='text-Titulo'>Repositorio :</h2>
+                <Link href={projeto.repositorioURL} target='_blank'>
+                  <h3 className='group-hover:text-gray-300 group-hover:opacity-95'>{projeto.repositorioURL}</h3>
+                </Link>
+              </div>
+              <div className='group flex gap-3'>
+                <h2 className='text-Titulo'>Visualizar projeto :</h2>
+                {
+                  projeto.titulo === 'Portfolio' ?
+                    <h3>{projeto.projetoURL}</h3> :
+                    <Link href={projeto.projetoURL} target='_blank'>
+                      <h3 className='group-hover:text-gray-300 group-hover:opacity-95'>{projeto.projetoURL}</h3>
+                    </Link>
+                }
               </div>
             </div>
           </div>

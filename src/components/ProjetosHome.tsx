@@ -32,9 +32,9 @@ export default function ProjetosHome() {
             </h1>
             <p className="w-full font-normal">{item.description}</p>
             <Link href={'/projetos'}
-              className='flex flex-row items-center textit'>
-              <h3 className="text-lg font-normal">Veja todos os projetos</h3>
-              <ArrowRight />
+              className='group flex flex-row items-center'>
+              <h3 className="text-Titulo font-prompt text-lg font-normal group-hover:text-gray-400 hover:opacity-95">Veja todos os projetos</h3>
+              <ArrowRight className='text-violet-300 group-hover:text-gray-400 group-hover:opacity-95' />
             </Link>
           </div>
         </div>

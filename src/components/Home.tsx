@@ -18,14 +18,15 @@ export default function Home() {
         <p className="text-Texto font-normal lg:w-[575px] lg:text-xl">
           Olá, meu nome é Filipe Ferreira e estou buscando me tornar um desenvolvedor Front-End. Estou sempre em busca de aprimorar minhas habilidades e aprender novas tecnologias.
         </p>
-        <h4 className='w-full'>
-          <span className="font-prompt text-lg font-semibold">
+        <h4 className='w-full text-lg'>
+          Ver {' '}
+          <span className="text-violet-200 font-prompt text-lg font-semibold hover:text-gray-400 hover:opacity-95">
             <Link href={'/projetos'} className='mr-2'>
-              VER PROJETOS
+              PROJETOS
             </Link>
           </span>
           ou entre em
-          <span className="font-prompt text-lg font-semibold">
+          <span className="text-violet-200 font-prompt text-lg font-semibold hover:text-gray-400 hover:opacity-95">
             <Link href={'/#Contatos'} className='ml-2'>
               CONTATO
             </Link>

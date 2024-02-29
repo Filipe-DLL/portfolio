@@ -1,5 +1,6 @@
-import portfolio from '@/assets/Portfolio.png';
-import pokedex from '@/assets/Pokedex.png';
+import GithubAPIImage from '@/assets/projetos/GithubAPI.png';
+import PokedexImage from '@/assets/projetos/Pokedex.png';
+import portfolioImage from '@/assets/projetos/Portfolio.png';
 
 import { StaticImageData } from "next/image";
 
@@ -8,6 +9,8 @@ export interface projectDataType {
   imagem: StaticImageData,
   imagemAlt: string,
   description: string,
+  projetoURL: string,
+  repositorioURL: string,
   tecnologias?: {
     name: string,
     imageLink: string,
@@ -17,9 +20,11 @@ export interface projectDataType {
 export const projectData: projectDataType[] = [
   {
     titulo: 'Portfolio',
-    imagem: portfolio,
-    imagemAlt: 'portfolio',
+    imagem: portfolioImage,
+    imagemAlt: 'projeto do portfolio',
     description: 'Este projeto do meu Portfolio pessoal. Ele foi desenvolvido usando as tecnologias - TypeScript, React, Next.JS e estilizado com Tailwind.',
+    projetoURL: 'Você já esta aqui!',
+    repositorioURL: 'https://github.com/Filipe-DLL/portfolio',
     tecnologias: [
       {
         name: 'Next',
@@ -41,10 +46,12 @@ export const projectData: projectDataType[] = [
   },
   {
     titulo: 'Pokedex',
-    imagem: pokedex,
-    imagemAlt: 'Pokedex',
+    imagem: PokedexImage,
+    imagemAlt: 'projeto da Pokedex',
     description: 'Este projeto é uma Pokédex em que você pode procurar informações sobre diferentes Pokémons. Ele foi desenvolvido usando as tecnologias - React, Axios, Styled-Components, React-Icons e Context API.',
-    tecnologias:[
+    projetoURL: 'https://pokedex-filipe-dll.vercel.app/',
+    repositorioURL: 'https://github.com/Filipe-DLL/pokedex',
+    tecnologias: [
       {
         name: 'React',
         imageLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg'
@@ -60,26 +67,25 @@ export const projectData: projectDataType[] = [
     ]
   },
   {
-    titulo: 'titulo',
-    imagem: portfolio,
-    imagemAlt: 'alt',
-    description: 'description',
-  },
-  {
-    titulo: 'titulo',
-    imagem: pokedex,
-    imagemAlt: 'alt',
-    description: 'description',
-  }, {
-    titulo: 'titulo',
-    imagem: portfolio,
-    imagemAlt: 'alt',
-    description: 'description',
-  },
-  {
-    titulo: 'titulo',
-    imagem: pokedex,
-    imagemAlt: 'alt',
-    description: 'description',
+    titulo: 'GithubAPI',
+    imagem: GithubAPIImage,
+    imagemAlt: 'projeto com github api.',
+    description: 'Este é um projeto que utiliza a API do GitHub para buscar informações dos usuários, tais como foto do usuário, nome, bio, seguidores e seguindo. Além disso, exibe também os repositórios e um histórico de eventos do usuário. Ele foi desenvolvido usando as tecnologias JavaScript, Fetch API, CSS, HTML.',
+    projetoURL: 'https://filipe-dll.github.io/project-fetch-github-api/',
+    repositorioURL: 'https://github.com/Filipe-DLL/project-fetch-github-api',
+    tecnologias: [
+      {
+        name: 'JavaScript',
+        imageLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg'
+      },
+      {
+        name: 'CSS',
+        imageLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg'
+      },
+      {
+        name: 'HTML',
+        imageLink: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg'
+      },
+    ]
   },
 ]
