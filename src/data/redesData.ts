@@ -1,11 +1,11 @@
-export interface redesType {
+export interface redesDataType {
   nome: string;
   imagem: string;
   url: string;
   description: string;
 }
 
-export const redes: redesType[] = [
+export const redes: redesDataType[] = [
   {
     nome: 'LinkedIn',
     imagem: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg',

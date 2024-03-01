@@ -3,13 +3,13 @@ import Link from 'next/link'
 
 import Seta from '@/assets/Seta.png'
 import SetaBaixo from '@/assets/SetaBaixo.png'
-import { redes } from '@/data/redes'
+import { redes } from '@/data/redesData'
 
 export default function Contato() {
   return (
     <section
       id="Contatos"
-      className="h-[675px] flex items-center justify-center my-20"
+      className="min-h-screen flex items-center justify-center my-20"
     >
       <div className="bg-BgBlur h-full flex w-full flex-col items-center justify-center gap-4 rounded-xl border border-gray-500 p-5 xl:p-16 lg:min-h-[600px] lg:w-full lg:max-w-[1120px]">
         <h1 className="font-prompt text-Titulo mb-4 text-center text-4xl font-medium lg:text-5xl">
@@ -19,7 +19,7 @@ export default function Contato() {
         <div className="flex flex-col flex-wrap items-start justify-around lg:h-64 lg:flex-row lg:gap-3">
           {
             redes.map(item => (
-              <div className="flex flex-row items-center justify-around lg:flex-col lg:gap-10">
+              <div className="flex flex-row items-center justify-around w-full lg:w-auto lg:flex-col lg:gap-10">
                 <div className="relative flex h-52 w-16 items-center justify-center lg:h-full lg:w-full">
                   <Link
                     href={item.url}

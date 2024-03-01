@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import { projectData } from '@/data/projetos'
+import { projectData } from '@/data/projetosData'
 import Link from 'next/link'
 
 export default function Projetos() {

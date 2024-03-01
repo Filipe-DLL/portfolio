@@ -1,5 +1,5 @@
 
-import { iconsData } from "@/data/icons";
+import { iconsData } from "@/data/iconsData";
 import Image from "next/image";
 import svg from "@/assets/inbox_letter_contact_envelope_mail_email_icon_220346.svg";
 
@@ -29,10 +29,7 @@ export default function Tecnologias() {
             }
           </div>
           <p className="font-normal">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Reiciendis earum deleniti praesentium? Labore beatae, numquam eius
-            nihil, enim perspiciatis, ullam minima expedita eaque cum dolorum
-            accusantium magnam voluptate quis iure.
+            Tenho experiencia pratica com estas tecnologias acima.
           </p>
         </div>
       </div>

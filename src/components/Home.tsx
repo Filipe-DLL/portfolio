@@ -21,7 +21,7 @@ export default function Home() {
         <h4 className='w-full text-lg'>
           Ver {' '}
           <span className="text-violet-200 font-prompt text-lg font-semibold hover:text-gray-400 hover:opacity-95">
-            <Link href={'/projetos'} className='mr-2'>
+            <Link href={'/projetos'} scroll={true} className='mr-2'>
               PROJETOS
             </Link>
           </span>
