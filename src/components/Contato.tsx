@@ -18,8 +18,9 @@ export default function Contato() {
 
         <div className="flex flex-col flex-wrap items-start justify-around lg:h-64 lg:flex-row lg:gap-3">
           {
-            redes.map(item => (
-              <div className="flex flex-row items-center justify-around w-full lg:w-auto lg:flex-col lg:gap-10">
+            redes.map((item, key) => (
+              <div className="flex flex-row items-center justify-around w-full lg:w-auto lg:flex-col lg:gap-10"
+              key={key}>
                 <div className="relative flex h-52 w-16 items-center justify-center lg:h-full lg:w-full">
                   <Link
                     href={item.url}

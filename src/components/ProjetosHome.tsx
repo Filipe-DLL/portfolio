@@ -13,11 +13,11 @@ export default function ProjetosHome() {
       <h1 className="font-prompt text-Titulo mb-4 text-center text-4xl font-medium lg:text-5xl">
         Projetos
       </h1>
-      {projectData.slice(0, 2).map((item, index) => (
+      {projectData.slice(0, 2).map((item, key) => (
         <div
-          key={index}
+          key={key}
           className={`flex w-full flex-col items-center justify-center lg:flex-row lg:gap-20 
-          ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}
+          ${key % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}
         >
           <Link href={'/projetos'} className="mt-5">
             <Image

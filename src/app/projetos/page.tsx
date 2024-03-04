@@ -9,7 +9,7 @@ export default function Projetos() {
       <div className="bg-BgBlur flex min-h-screen w-full flex-col items-center justify-center p-4 backdrop-blur-xl backdrop-filter">
         {projectData.map((projeto, index) => (
           <div
-            key={index}
+            key={projeto.titulo}
             className={`mt-20 flex w-full flex-col items-center justify-center lg:flex-row lg:gap-20 ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
               }`}
           >
