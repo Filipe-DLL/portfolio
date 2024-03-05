@@ -1,10 +1,10 @@
 import { FloatingNav } from "@/components/ui/floating-navbar";
+import { navItemsData } from "@/data/navItens";
 import type { Metadata } from 'next';
 import { Mukta, Prompt } from 'next/font/google';
 import Image from 'next/image';
 import bgImage from "../../public/bgimage.jpg";
 import './globals.css';
-import { navItemsData } from "@/data/navItens";
 
 const mukta = Mukta({
   subsets: ['latin'],
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode
-}) {
+}>) {
   return (
     <html lang="pt-BR">
       <body className={`${mukta.variable} ${prompt.variable} text-Texto font-mukta m-0 box-border min-h-screen`}>
@@ -41,7 +41,6 @@ export default function RootLayout({
           }}
         />
         <FloatingNav navItems={navItemsData.navItems} />
-        {/* <Header /> */}
         {children}
       </body>
     </html>

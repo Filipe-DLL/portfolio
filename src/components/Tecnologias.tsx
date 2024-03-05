@@ -1,7 +1,6 @@
 
 import { iconsData } from "@/data/iconsData";
 import Image from "next/image";
-import svg from "@/assets/inbox_letter_contact_envelope_mail_email_icon_220346.svg";
 
 
 export default function Tecnologias() {
@@ -13,6 +12,9 @@ export default function Tecnologias() {
 
       <div className='flex flex-col lg:flex-row lg:gap-5'>
         <div className="flex flex-col items-center justify-center gap-5 lg:h-full">
+          <p className="font-normal text-Titulo">
+            Tenho experiencia pratica com estas tecnologias.
+          </p>
           <div className="flex items-baseline justify-center flex-wrap gap-5">
             {
               iconsData.map((item) => (
@@ -24,9 +26,6 @@ export default function Tecnologias() {
               ))
             }
           </div>
-          <p className="font-normal text-Titulo">
-            Tenho experiencia pratica com estas tecnologias acima.
-          </p>
         </div>
       </div>
     </section>

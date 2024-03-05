@@ -1,4 +1,5 @@
 import Contato from '@/components/Contato'
+import Footer from '@/components/Footer'
 import Home from '@/components/Home'
 import ProjetosHome from '@/components/ProjetosHome'
 import Tecnologias from '@/components/Tecnologias'
@@ -12,6 +13,7 @@ export default function HomePage() {
         <ProjetosHome />
       </div>
       <Contato />
+      <Footer />
     </main>
   )
 }
