@@ -5,6 +5,8 @@ import { Mukta, Prompt } from 'next/font/google';
 import Image from 'next/image';
 import bgImage from "../../public/bgimage.jpg";
 import './globals.css';
+import 'animate.css';
+import Footer from "@/components/Footer";
 
 const mukta = Mukta({
   subsets: ['latin'],
@@ -33,7 +35,6 @@ export default function RootLayout({
         <Image className='h-screen fixed bg-fixed -z-50'
           alt="background"
           src={bgImage}
-          placeholder="blur"
           quality={100}
           sizes="100vh"
           style={{
@@ -42,6 +43,7 @@ export default function RootLayout({
         />
         <FloatingNav navItems={navItemsData.navItems} />
         {children}
+        <Footer />
       </body>
     </html>
   )

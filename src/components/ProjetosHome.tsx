@@ -8,7 +8,7 @@ export default function ProjetosHome() {
   return (
     <section
       id="Projetos"
-      className="my-20 flex w-full flex-col items-center justify-center pt-10 lg:w-full lg:max-w-[1120px] lg:flex-col"
+      className="animate__fadeIn animate__animated my-20 flex w-full flex-col items-center justify-center pt-10 lg:w-full lg:max-w-[1120px] lg:flex-col"
     >
       <h1 className="font-prompt text-Titulo mb-4 text-center text-4xl font-medium lg:text-5xl">
         Projetos
@@ -42,4 +42,3 @@ export default function ProjetosHome() {
     </section>
   )
 }
-

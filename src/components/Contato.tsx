@@ -11,7 +11,7 @@ export default function Contato() {
       id="Contatos"
       className="min-h-screen flex items-center justify-center my-20"
     >
-      <div className="bg-BgBlur h-full flex w-full flex-col items-center justify-center gap-4 rounded-xl border border-gray-500 p-5 xl:p-16 lg:min-h-[600px] lg:w-full lg:max-w-[1120px]">
+      <div className="animate__fadeIn animate__animated bg-BgBlur backdrop-blur-lg h-full flex w-full flex-col items-center justify-center gap-4 rounded-xl border border-gray-500 p-5 xl:p-16 lg:min-h-[600px] lg:w-full lg:max-w-[1120px]">
         <h1 className="font-prompt text-Titulo mb-10 text-center text-4xl font-medium lg:text-5xl">
           Contatos
         </h1>

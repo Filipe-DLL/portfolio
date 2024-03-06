@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 export default function Projetos() {
   return (
-    <main className=" flex flex-col items-center justify-between text-white">
-      <div className="bg-BgBlur flex min-h-screen w-full flex-col items-center justify-center p-4 backdrop-blur-xl backdrop-filter">
+    <main className="bg-BgBlur flex flex-col items-center justify-between text-white">
+      <div className="animate__fadeIn animate__animated flex min-h-screen w-full flex-col items-center justify-center p-4 backdrop-blur-md backdrop-filter">
         {projectData.map((projeto, index) => (
           <div
             key={projeto.titulo}
