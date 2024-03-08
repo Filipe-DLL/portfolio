@@ -43,7 +43,7 @@ export default function RootLayout({
         />
         <FloatingNav navItems={navItemsData.navItems} />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   )

@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import Link from 'next/link'
 
 import { projectData } from '@/data/projetosData'
 import { ArrowRight } from 'lucide-react'
+import Link from 'next/link'
+import ProjectCard from './ui/3d-card/ProjectCard'
 
 export default function ProjetosHome() {
   return (
@@ -13,7 +13,7 @@ export default function ProjetosHome() {
       <h1 className="font-prompt text-Titulo mb-4 text-center text-4xl font-medium lg:text-5xl">
         Projetos
       </h1>
-      {projectData.slice(0, 2).map((item, key) => (
+      {/* {projectData.slice(0, 2).map((item, key) => (
         <div
           key={key}
           className={`flex w-full flex-col items-center justify-center lg:flex-row lg:gap-20 
@@ -38,7 +38,26 @@ export default function ProjetosHome() {
             </Link>
           </div>
         </div>
-      ))}
+      ))} */}
+
+      <div className='w-full flex flex-col items-center justify-around lg:flex-row'>
+        {projectData.slice(0, 2).map((item, key) => (
+          <div
+            key={key}
+            className='w-full flex flex-col items-center justify-center lg:gap-20'
+          >
+            <ProjectCard props={item} />
+          </div>
+        ))}
+
+      </div>
+
+      <Link href={'/projetos'}
+        className='group flex flex-row items-center'>
+        <h3 className="text-Titulo font-prompt text-lg font-normal group-hover:text-gray-400 hover:opacity-95">Veja todos os projetos</h3>
+        <ArrowRight className='text-violet-300 group-hover:text-gray-400 group-hover:opacity-95' />
+      </Link>
+
     </section>
   )
 }

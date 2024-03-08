@@ -2,6 +2,7 @@ import Contato from '@/components/Contato'
 import Home from '@/components/Home'
 import ProjetosHome from '@/components/ProjetosHome'
 import Tecnologias from '@/components/Tecnologias'
+import ProjectCard from '@/components/ui/3d-card/ProjectCard'
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
         <ProjetosHome />
       </div>
       <Contato />
+      {/* <ProjectCard /> */}
     </main>
   )
 }
