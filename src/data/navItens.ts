@@ -14,4 +14,3 @@ export const navItemsData: navItemsTypes = {
     { name: 'Contatos', link: '/#Contatos', },
   ]
 }
-

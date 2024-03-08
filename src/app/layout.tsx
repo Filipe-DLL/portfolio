@@ -1,12 +1,11 @@
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { navItemsData } from "@/data/navItens";
+import 'animate.css';
 import type { Metadata } from 'next';
 import { Mukta, Prompt } from 'next/font/google';
 import Image from 'next/image';
 import bgImage from "../../public/bgimage.jpg";
 import './globals.css';
-import 'animate.css';
-import Footer from "@/components/Footer";
 
 const mukta = Mukta({
   subsets: ['latin'],
@@ -43,7 +42,6 @@ export default function RootLayout({
         />
         <FloatingNav navItems={navItemsData.navItems} />
         {children}
-        {/* <Footer /> */}
       </body>
     </html>
   )
