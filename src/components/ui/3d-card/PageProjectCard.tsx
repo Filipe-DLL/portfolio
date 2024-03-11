@@ -26,14 +26,14 @@ export interface projectDataType {
 export default function ProjectCard({ props }: projectDataType) {
   return (
     <CardContainer className="inter-var">
-      <CardBody className="group/card bg-BgBlur relative flex h-full w-[400px] flex-col justify-between rounded-xl border border-white/[0.2] p-6 hover:shadow-2xl hover:shadow-emerald-500/[0.1] sm:w-[900px]">
-        <CardItem translateZ="40" className="text-Titulo text-xl font-bold">
+      <CardBody className="group/card bg-BgBlur relative flex h-full w-[400px] flex-col justify-between rounded-xl border border-white/[0.2] p-6 hover:shadow-2xl hover:shadow-emerald-500/[0.1] md:w-[600px] lg:w-[900px]">
+        <CardItem translateZ="40" className="font-prompt text-Titulo text-xl font-bold pb-2">
           {props.titulo}
         </CardItem>
         <CardItem
           as="p"
           translateZ="50"
-          className="mt-2text-neutral-300 h-24 text-sm"
+          className="mt-2text-neutral-300 h-28 md:h-24 text-sm md:text-base"
         >
           {props.description}
         </CardItem>
@@ -52,7 +52,7 @@ export default function ProjectCard({ props }: projectDataType) {
           className=" mt-2text-neutral-300 flex h-24 max-w-sm flex-row items-center justify-center text-sm"
         >
           <div className="mt-2 flex items-center">
-            <h2 className="text-Titulo">Tecnologias utilizadas :</h2>
+            <h2 className="font-prompt text-Titulo text-base">Tecnologias utilizadas :</h2>
             <div className="ml-2 flex gap-2">
               {props.tecnologias
                 ? props.tecnologias.map((tecnologia, key) => (
@@ -73,7 +73,7 @@ export default function ProjectCard({ props }: projectDataType) {
           <CardItem
             translateZ={20}
             as="button"
-            className="rounded-xl px-4 py-2 text-xs font-normal text-white"
+            className="rounded-xl px-4 py-2 text-base font-normal text-white font-prompt pl-0"
           >
             <Link href={props.repositorioURL} target="_blank">
               Repositórios
@@ -82,7 +82,7 @@ export default function ProjectCard({ props }: projectDataType) {
           <CardItem
             translateZ={20}
             as="div"
-            className="cursor-auto rounded-xl bg-[#643557] px-4 py-2 text-xs font-bold text-white"
+            className="cursor-auto rounded-xl bg-[#643557] px-4 py-2 text-base font-bold text-white font-prompt"
           >
             {props.titulo === 'Portfolio' ? (
               <h3 className="cursor-auto">{props.projetoURL}</h3>

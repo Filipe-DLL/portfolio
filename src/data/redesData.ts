@@ -18,16 +18,17 @@ export const redes: redesDataType[] = [
     url: 'https://github.com/Filipe-DLL',
     description: '              Explore meu GitHub para ver o código dos meus projetos e contribuições para projetos de código aberto.',
   },
-  {
-    nome: 'Email',
-    imagem: 'https://i.imgur.com/a04tthN.png',
-    url: '',
-    description: ' Entre em contato comigo enviando um email para filipeferreira.new@gmail.com para discussões profissionais ou oportunidades de colaboração.',
-  },
+
   {
     nome: 'Discord',
     imagem: 'https://i.imgur.com/2hbgVqb.png',
     url: 'https://discord.com/users/403682043373944852',
     description: 'Entre em contato comigo também pelo Discord.',
+  },
+  {
+    nome: 'Email',
+    imagem: 'https://i.imgur.com/a04tthN.png',
+    url: '',
+    description: ' Entre em contato comigo enviando um email para filipeferreira.new@gmail.com para discussões profissionais ou oportunidades de colaboração.',
   },
 ]
