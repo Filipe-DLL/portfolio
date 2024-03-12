@@ -59,11 +59,11 @@ ou
 pnpm install
 ```
 
-### 📡 Inicie o Servidor
+#### 📡 Inicie o Servidor
 
 
 ```
 npm run dev
 ```
 
-### 💻 Acesse a aplicação em seu navegador, no endereço http://localhost:3000.
+#### 💻 Acesse a aplicação em seu navegador, no endereço http://localhost:3000.
