@@ -20,7 +20,7 @@ Este é projeto do meu Portfolio pessoal feiro com o principal objetivo de expor
 <img src="/public/AnimaçãoWeb.gif" title="gif do projeto">
 
 #### Mobile
-<img src="" title="gif do projeto">
+<img src="/public/AnimaçãoMobile.gif" title="gif do projeto">
 
 ## 💻 Como Executar
 
