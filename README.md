@@ -4,7 +4,7 @@
 
 ### Descrição do projeto
 
-Este é projeto do meu Portfolio pessoal feiro com o principal objetivo de expor meus projetos e conhecimentos adquiridos criando eles. Ele foi desenvolvido usando as tecnologias.rofissionais** e **sobre o desenvolvedor** num geral.
+Este é projeto do meu Portfolio pessoal feiro com o principal objetivo de expor meus projetos e conhecimentos adquiridos criando eles.
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 <div align='center'>
