@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="/public/Animação.gif" title="gif do projeto">
 
-## Getting Started
+<!-- # Portfolio
 
-First, run the development server:
+### Descrição do projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Este é projeto do meu Portfolio pessoal feiro com o principal objetivo de expor meus projetos e conhecimentos adquiridos criando eles. Ele foi desenvolvido usando as tecnologias.
+
+> **TypeScript, React, Next.JS e Tailwind**
+
+## ✨ Features
+
+
+<br/>
+
+* ✔️ Sobre;
+* ✔️ Tecnologias;
+* ✔️ Projetos;
+* ✔️ Pagina com todos os Projetos;
+* ✔️ Contatos;
+
+
+## 🚀 Começando
+
+### 1. Primeiro passo para começar
+
+Geralmente o primeiro passo para começar é instalar dependências para rodar o projeto. Rode:
+
+```
+apt get install dependencia
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Recomenda-se que cada comando seja colocado em uma linha diferente:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+apt get install outra-coisa
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Dessa forma os usuários podem copiar e colar sem ler as documentação (que é o que geralmente acontece).
 
-## Learn More
+### 2. Outro(s) passo(s)
 
-To learn more about Next.js, take a look at the following resources:
+Geralmente os próximos passos ensinam como instalar e configurar o projeto para uso/desenvolvimento. Rode:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+git clone https://github.com/ccuffs/template template
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🤝 Contribua
 
-## Deploy on Vercel
+Sua ajuda é muito bem-vinda, independente da forma! Confira o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para conhecer todas as formas de contribuir com o projeto. Por exemplo, [sugerir uma nova funcionalidade](https://github.com/ccuffs/template/issues/new?assignees=&labels=&template=feature_request.md&title=), [reportar um problema/bug](https://github.com/ccuffs/template/issues/new?assignees=&labels=bug&template=bug_report.md&title=), [enviar um pull request](https://github.com/ccuffs/hacktoberfest/blob/master/docs/tutorial-pull-request.md), ou simplemente utilizar o projeto e comentar sua experiência.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Veja o arquivo [ROADMAP.md](ROADMAP.md) para ter uma ideia de como o projeto deve evoluir.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## 🎫 Licença
+
+Esse projeto é licenciado nos termos da licença open-source [MIT](https://choosealicense.com/licenses/mit) e está disponível de graça.
+
+## 🧬 Changelog
+
+Veja todas as alterações desse projeto no arquivo [CHANGELOG.md](CHANGELOG.md).
+
+## 🧪 Projetos semelhates
+
+Abaixo está uma lista de links interessantes e projetos similares:
+
+* [Outro projeto](https://github.com/projeto)
+* [Projeto inspiração](https://github.com/projeto)
+* [Ferramenta semelhante](https://github.com/projeto) -->

@@ -11,15 +11,15 @@ export default function Contato() {
       id="Contatos"
       className="my-20 flex min-h-[750px] items-center justify-center px-3"
     >
-      <div className="animate__fadeIn animate__animated bg-BgBlur flex h-full w-full flex-col items-center justify-center gap-4 rounded-xl border border-gray-500 p-5 backdrop-blur-lg xl:p-16 lg:min-h-[600px] lg:w-full lg:max-w-[1120px]">
+      <div className="animate__fadeIn animate__animated bg-BgBlur flex h-full w-full flex-col items-center justify-center gap-4 rounded-xl border border-gray-500 p-5 backdrop-blur-lg xl:p-16 lg:min-h-[600px] lg:w-full">
         <h1 className="font-prompt text-Titulo mb-10 text-center text-4xl font-medium lg:text-5xl">
           Contatos
         </h1>
 
-        <div className="flex flex-col flex-wrap items-start justify-around lg:h-full lg:flex-row lg:gap-3">
+        <div className="flex flex-col flex-wrap items-start justify-center lg:h-full lg:flex-row lg:gap-3 ">
           {redes.map((item, key) => (
             <div
-              className="flex w-full flex-row items-center justify-around lg:w-auto lg:flex-col lg:gap-10"
+              className="flex w-full flex-row items-center justify-around lg:flex-col lg:gap-10 lg:w-1/3 2xl:w-auto"
               key={key}
             >
               <div className="relative flex h-52 w-16 items-center justify-center lg:h-full lg:w-full">
@@ -49,7 +49,7 @@ export default function Contato() {
                   </h1>
                 </Link>
               </div>
-              <p className="w-8/12 max-w-[480px] lg:w-80">{item.description}</p>
+              <p className="w-8/12 max-w-[480px] lg:w-80 text-center">{item.description}</p>
             </div>
           ))}
         </div>

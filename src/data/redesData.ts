@@ -16,14 +16,14 @@ export const redes: redesDataType[] = [
     nome: 'GitHub',
     imagem: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg',
     url: 'https://github.com/Filipe-DLL',
-    description: '              Explore meu GitHub para ver o código dos meus projetos e contribuições para projetos de código aberto.',
+    description: 'Explore meu GitHub para ver o código dos meus projetos e contribuições para projetos de código aberto.',
   },
 
   {
     nome: 'Discord',
     imagem: 'https://i.imgur.com/2hbgVqb.png',
     url: 'https://discord.com/users/403682043373944852',
-    description: 'Entre em contato comigo também pelo Discord.',
+    description: 'Entre em contato comigo enviando uma mensagem pelo Discord.',
   },
   {
     nome: 'Email',
