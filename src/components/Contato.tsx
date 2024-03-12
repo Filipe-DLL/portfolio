@@ -9,7 +9,7 @@ export default function Contato() {
   return (
     <section
       id="Contatos"
-      className="my-20 flex min-h-[750px] items-center justify-center px-3"
+      className="flex min-h-screen items-center justify-center px-3"
     >
       <div className="animate__fadeIn animate__animated bg-BgBlur flex h-full w-full flex-col items-center justify-center gap-4 rounded-xl border border-gray-500 p-5 backdrop-blur-lg xl:p-16 lg:min-h-[600px] lg:w-full">
         <h1 className="font-prompt text-Titulo mb-10 text-center text-4xl font-medium lg:text-5xl">
