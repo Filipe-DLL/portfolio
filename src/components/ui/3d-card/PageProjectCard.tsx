@@ -74,7 +74,7 @@ export default function ProjectCard({ props }: projectDataType) {
             className="rounded-xl px-4 py-2 text-base font-normal text-white font-prompt pl-0"
           >
             <Link href={props.repositorioURL} target="_blank">
-              Repositórios
+              Repositório
             </Link>
           </CardItem>
           <CardItem
