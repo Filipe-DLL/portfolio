@@ -1,70 +1,69 @@
-<img src="/public/Animação.gif" title="gif do projeto">
-
-<!-- # Portfolio
+<h1 justify='center'>
+  FILIPE FERREIRA - PORTFÓLIO
+</h1>
 
 ### Descrição do projeto
 
-Este é projeto do meu Portfolio pessoal feiro com o principal objetivo de expor meus projetos e conhecimentos adquiridos criando eles. Ele foi desenvolvido usando as tecnologias.
+Este é projeto do meu Portfolio pessoal feiro com o principal objetivo de expor meus projetos e conhecimentos adquiridos criando eles. Ele foi desenvolvido usando as tecnologias.rofissionais** e **sobre o desenvolvedor** num geral.
 
-> **TypeScript, React, Next.JS e Tailwind**
+## 🛠️ Tecnologias e Ferramentas Utilizadas
+<div align='center'>
+   <img align='center' height='57' width='57' title='Next' alt='next' src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg' />
+   <img align='center' height='50' width='70' title='TypeScript' alt='typescript' src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg' />
+   <img align='center' height='54' width='68' title='React' alt='react' src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg' />
+   <img align='center' height='54' width='68' title='Tailwindcss' alt='tailwindcss' src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg' />
+</div>
 
-## ✨ Features
+## Preview
 
+#### Web
+<img src="/public/AnimaçãoWeb.gif" title="gif do projeto">
 
-<br/>
+#### Mobile
+<img src="" title="gif do projeto">
 
-* ✔️ Sobre;
-* ✔️ Tecnologias;
-* ✔️ Projetos;
-* ✔️ Pagina com todos os Projetos;
-* ✔️ Contatos;
+## 💻 Como Executar
 
+### 🍴 Forkando o Repositório
 
-## 🚀 Começando
+Antes de começar, você **deverá** forkar o repositório do projeto para **seu perfil**.
 
-### 1. Primeiro passo para começar
+### 🖨 Clonando seu Repositório
 
-Geralmente o primeiro passo para começar é instalar dependências para rodar o projeto. Rode:
-
-```
-apt get install dependencia
-```
-
-Recomenda-se que cada comando seja colocado em uma linha diferente:
-
-```
-apt get install outra-coisa
-```
-
-Dessa forma os usuários podem copiar e colar sem ler as documentação (que é o que geralmente acontece).
-
-### 2. Outro(s) passo(s)
-
-Geralmente os próximos passos ensinam como instalar e configurar o projeto para uso/desenvolvimento. Rode:
+Após o Fork, você **precisará** clonar o repositório forkado para seu **ambiente de desenvolvimento local**:
 
 ```
-git clone https://github.com/ccuffs/template template
+git clone https://github.com/{seu-usuario}/portfolio.git
+```
+```
+cd portfolio
 ```
 
-## 🤝 Contribua
+### ⏬ Instalando Dependências
 
-Sua ajuda é muito bem-vinda, independente da forma! Confira o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para conhecer todas as formas de contribuir com o projeto. Por exemplo, [sugerir uma nova funcionalidade](https://github.com/ccuffs/template/issues/new?assignees=&labels=&template=feature_request.md&title=), [reportar um problema/bug](https://github.com/ccuffs/template/issues/new?assignees=&labels=bug&template=bug_report.md&title=), [enviar um pull request](https://github.com/ccuffs/hacktoberfest/blob/master/docs/tutorial-pull-request.md), ou simplemente utilizar o projeto e comentar sua experiência.
+Certifique-se de ter Node.js instalado no seu sistema. Em seguida, instale as dependências necessárias:
 
-Veja o arquivo [ROADMAP.md](ROADMAP.md) para ter uma ideia de como o projeto deve evoluir.
+```
+npm install
+```
+
+ou
+
+```
+yarn install
+```
+
+ou
+
+```
+pnpm install
+```
+
+### 📡 Inicie o Servidor
 
 
-## 🎫 Licença
+```
+npm run dev
+```
 
-Esse projeto é licenciado nos termos da licença open-source [MIT](https://choosealicense.com/licenses/mit) e está disponível de graça.
-
-## 🧬 Changelog
-
-Veja todas as alterações desse projeto no arquivo [CHANGELOG.md](CHANGELOG.md).
-
-## 🧪 Projetos semelhates
-
-Abaixo está uma lista de links interessantes e projetos similares:
-
-* [Outro projeto](https://github.com/projeto)
-* [Projeto inspiração](https://github.com/projeto)
-* [Ferramenta semelhante](https://github.com/projeto) -->
+### 💻 Acesse a aplicação em seu navegador, no endereço http://localhost:3000.
