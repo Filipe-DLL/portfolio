@@ -4,7 +4,7 @@
 
 ### Descrição do projeto
 
-Este é projeto do meu Portfolio pessoal feiro com o principal objetivo de expor meus projetos e conhecimentos adquiridos criando eles.
+Este é projeto do meu Portfolio pessoal feiro com o principal objetivo de expor meus projetos, conhecimentos  e experiencias adquiridos durante a criação deles.
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 <div align='center'>
@@ -14,13 +14,6 @@ Este é projeto do meu Portfolio pessoal feiro com o principal objetivo de expor
    <img align='center' height='54' width='68' title='Tailwindcss' alt='tailwindcss' src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg' />
 </div>
 
-## Preview
-
-#### Web
-<img src="/public/AnimaçãoWeb.gif" title="gif do projeto">
-
-#### Mobile
-<img src="/public/AnimaçãoMobile.gif" title="gif do projeto">
 
 ## 💻 Como Executar
 
@@ -67,3 +60,11 @@ npm run dev
 ```
 
 #### 💻 Acesse a aplicação em seu navegador, no endereço http://localhost:3000.
+
+## Preview
+
+#### Web
+<img src="/public/AnimaçãoWeb.gif" title="gif do projeto">
+
+#### Mobile
+<img src="/public/AnimaçãoMobile.gif" title="gif do projeto">
